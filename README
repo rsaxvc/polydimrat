@@ -1,0 +1,1 @@
+polydimrat is a generator for the ratio of a multidimensional unit circle's volume to its multidimensional unit cube related to the number of dimensions. Normally I would just use GNUPLOT but it has trouble with complex numbers.
