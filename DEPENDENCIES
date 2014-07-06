@@ -1,0 +1,5 @@
+required:
+	python
+
+optional:
+	gnuplot for graphing
