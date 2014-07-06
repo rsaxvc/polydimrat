@@ -2,4 +2,5 @@ set term png
 set output "plot.png"
 set datafile separator ","
 set style data linespoints
-plot "plot.csv"
+R=.5
+plot "plot.csv",(pi**(x/2))*(R**x)/gamma(x/2+1)
