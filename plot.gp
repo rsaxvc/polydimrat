@@ -1,3 +1,5 @@
+set xlabel "dimension"
+set ylabel "volume(sphere)/volume(cube)"
 set term png
 set output "plot.png"
 set datafile separator ","
