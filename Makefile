@@ -8,3 +8,6 @@ plot.png: plot.gp plot.csv
 
 plot_3d.png: plotCircleSphereCutaway.gp
 	gnuplot $<
+
+clean:
+	rm -f *.csv *.png
