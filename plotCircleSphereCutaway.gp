@@ -10,4 +10,4 @@ set xlabel "y"
 set xlabel "z"
 set terminal png enhanced
 set output "plot_3d.png"
-splot [-pi:pi][-pi/2:0] cos(u)*cos(v), sin(u)*cos(v), sin(v), cos(u)*cos(v), sin(u)*cos(v), 0, u/pi,v/(pi/4)+1,0
+splot [-pi:pi][-pi/2:0] cos(u)*cos(v), sin(u)*cos(v), sin(v) t "CutAway3Ball", cos(u)*cos(v), sin(u)*cos(v), 0 t "2Ball", u/pi,v/(pi/4)+1,0 t "2Cube"
